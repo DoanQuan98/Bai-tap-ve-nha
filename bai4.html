@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<!--bài 4: Viết chương trình tính tổng các số chẵn trong mảng-->
+<!--Input: [ -1, 0, 3, 5, 9, 2, 4]-->
+<!--output: 6-->
+<script>
+    function findTotal() {
+        let total = 0;
+        let arr = [-1, 0, 3, 5, 9, 2, 4];
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 === 0) {
+                total += arr[i];
+            }
+        }
+        document.write(total);
+    }
+</script>
+</body>
+</html>

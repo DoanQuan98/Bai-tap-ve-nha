@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>[Bài 1]</title>
+</head>
+<body>
+<!--Bài 1: Viết chương trình tìm số lớn nhất trong mảng-->
+<!--Input: [ -1, 0, 3, 5, 9, -2]-->
+<!--output: 9-->
+<script>
+    function findMax(arr) {
+        let max = arr[0];
+        for (let num of arr) {
+            if (max < num)
+                max = num;
+        }
+        return max;
+    }
+
+    document.write(findMax([-1, 0, 3, 5, 9, -2]))
+</script>
+</script>
+</body>
+</html>

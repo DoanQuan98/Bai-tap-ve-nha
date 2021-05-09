@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--Bài 3: Viết chương trình tính tổng các số trong mảng-->
+<!--Input: [ -1, 0, 3, 5, 9, -2]-->
+<!--output: 14-->
+<script>
+    function findTotal() {
+        let arr = [-1, 0, 3, 5, 9, -2];
+        let total = 0;
+        for (let i in arr) {
+                total += arr[i];
+        }
+        return total
+    }
+    document.write(findTotal())
+</script>
+</body>
+</html>

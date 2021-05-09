@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--Bài 2: Viết chương trình tìm số nhỏ nhất trong mảng-->
+<!--Input: [ -1, 0, 3, 5, 9, -2]-->
+<!--output: -2-->
+<script>
+    function findMax(arr) {
+        let min = arr[0];
+        for (let num of arr) {
+            if (min > num)
+                min = num;
+        }
+        return min;
+    }
+
+    document.write(findMax([-1, 0, 3, 5, 9, -2]))
+</script>
+</body>
+</html>
